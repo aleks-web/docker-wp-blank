@@ -9,12 +9,12 @@ WordPress сборка для быстрого старта разработки
 Переходите в рабочую директорию и клонируете проект выполнив следующую команду в терминале:
 
 ```bash
-  git clone https://github.com/aleks-web/docker-modx-blank.git
+  git clone https://github.com/aleks-web/docker-wp-blank.git
 ```
 
 Переходите в проект:
 ```bash
-  cd docker-modx-blank
+  cd docker-wp-blank
 ```
 
 Поднимаете окружение через Docker:
