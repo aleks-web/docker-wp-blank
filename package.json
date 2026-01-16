@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "npx @tailwindcss/cli -i ./modx/template/assets/css/input.css -o ./modx/template/assets/css/output.css --watch"
+  }
+}
