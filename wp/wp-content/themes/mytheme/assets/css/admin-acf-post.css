@@ -1,0 +1,29 @@
+.acf-block {
+    background-color: #184c43;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.acf-block__title {
+    margin-top: 0;
+}
+
+.acf-block__bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.acf-block__line {
+    font-size: 22px;
+    border-bottom: 2px solid #136456;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.acf-block__line:last-child {
+    border-bottom: none;
+}
