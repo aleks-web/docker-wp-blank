@@ -1,0 +1,21 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+RewriteCond %{HTTP_HOST} ^www.fordev72.ru.ru$ [NC]
+RewriteRule ^(.*)$ https://fordev72.ru.ru/$1 [R=301,L]
+
+RewriteRule ^index\.php$ https://fordev72.ru.ru/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} ^(.*)/index.php$
+RewriteRule ^(.*)$ %1/ [R=301,L]
+
+ErrorDocument 404 /404.php
+
+# Order deny,allow
+# Deny from all
+#Allow from 188.186.178.47
+#Allow from 185.54.237.42
+AddType model/gltf-binary .glb
+AddType model/gltf+json .gltf
