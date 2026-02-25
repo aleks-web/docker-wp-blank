@@ -7,8 +7,6 @@
 get_header();
 
 $docs = get_field('docs');
-
-dd($docs);
 ?>
 
 <section class="hero animate-on-scroll section_pt active">

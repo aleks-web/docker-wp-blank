@@ -33,7 +33,7 @@ $is_button = get_field('is_button_order');
 
 
 <!-- Код куба -->
-<!--script type="module">
+<script type="module">
     import * as THREE from '<?= get_template_directory_uri(); ?>/assets/js/three.module.js';
     import { GLTFLoader } from '<?= get_template_directory_uri(); ?>/assets/js/GLTFLoader.js';
     import { RGBELoader } from '<?= get_template_directory_uri(); ?>/assets/js/RGBELoader.js';
@@ -189,4 +189,4 @@ $is_button = get_field('is_button_order');
     if (!renderer.capabilities.isWebGL2) {
         container.innerHTML = `<img src="<?= get_template_directory_uri(); ?>/assets/img/kub.png" alt="Сертификат соответствия" />`;
     }
-</script-->
+</script>

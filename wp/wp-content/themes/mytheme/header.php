@@ -13,20 +13,6 @@ $root_server = $_SERVER['DOCUMENT_ROOT'];
 
     <link rel="icon" href="<?= get_template_directory_uri() ?>/assets/img/favicon-48.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="<?= get_template_directory_uri() ?>/assets/img/favicon-180.svg" />
-
-
-
-    <meta property="og:image" content="/css/img/opengraph.png"/>
-    <!-- <meta property="og:title" content="" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="" />
-    <meta property="og:description " content="" />
-    <meta property="og:locale" content="ru_RU" />
-    <meta property="og:site_name" content="" /> -->
-
-    <!-- <meta itemprop="name" content="" />
-    <meta itemprop="description" content="" />
-    <meta itemprop="image" content="" /> -->
 </head>
 
 

@@ -143,3 +143,15 @@ add_action( 'acf/init', function () {
         ));
     }
 });
+
+add_action( 'acf/init', function () {
+    if( function_exists( 'acf_register_block_type' ) ) {
+        acf_register_block_type(array(
+            'name'              => 'nova_why_not',
+            'title'             => 'Nova "Почему вас здесь нет?"',
+            'description'       => 'Блок "Почему вас здесь нет?"',
+            'render_template'   => realpath(__DIR__ . '/nova_why_not/block.php'),
+            'category'          => 'Шаблон NOVA',
+        ));
+    }
+});

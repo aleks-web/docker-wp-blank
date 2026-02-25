@@ -5,7 +5,7 @@ $desc = get_field('desc');
 $cats = get_field('cats');
 
 outputAcfStart();
-    outputAcfTitle('Блок "Лицензии"');
+    outputAcfTitle('Блок "Категории услуг"');
     outputAcfLine('Заголовок', $title);
     outputAcfLine('Описание', $desc);
     outputAcfLine('Количество элементов', count($cats));

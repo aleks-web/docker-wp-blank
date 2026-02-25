@@ -79,3 +79,10 @@ section.form_sender.loader-wrap {
     position: fixed;
     z-index: 999999;
 }
+
+#webgl-cube { position: relative; }
+
+#webgl-cube canvas:last-child {
+    position: absolute;
+    top: 0;
+}

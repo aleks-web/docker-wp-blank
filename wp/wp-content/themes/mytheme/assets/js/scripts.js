@@ -408,7 +408,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   }, {
-    threshold: 0.1 // 10% элемента должно быть видно
+    threshold: 0.1
   });
 
   document.querySelectorAll('.animate-on-scroll').forEach(block => {
