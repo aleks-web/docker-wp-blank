@@ -55,7 +55,7 @@
 
             <img class="img__lab img__lab_style" src="<?= $thumb ? $thumb : get_template_directory_uri() . '/assets/img/notphotebig.png' ?>" alt="imgservice">
 
-            <?php if (isset($groupFile['file'])): ?>
+            <?php if (isset($groupFile['file']) && isset($groupFile['file']['url'])): ?>
                 <div class="doc__box">
                     <?php if (isset($groupFile['title'])): ?>
                         <p class="doc__box_title"><?= $groupFile['title']; ?></p>
@@ -92,6 +92,8 @@
 
             <div class="documents__controler">
                 <button class="btn btn--gold btn--gold_width btnPopup">ЗАКАЗАТЬ ОФОРМЛЕНИЕ ДОКУМЕНТА</button>
+
+                <?php if (count($needRev) > 0): ?>
                 <div class="documents__controler_buttons">
                     <div class="button_cont left">
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -104,6 +106,7 @@
                         </svg>
                     </div>
                 </div>
+                <?php endif; ?>
             </div>
         </div>
     </div>
